@@ -62,27 +62,52 @@ body {
 
 header nav {
     display: flex;
-    justify-content: space-evenly;
-    border: 1px solid red;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
 
 }
 
 links {
     display: flex;
     width: 60%;
-    justify-content: space-evenly;
-    align-self: center;
+    justify-content: space-around;
+    height: 10vh;
+
+    margin-left: 5%;
+
 
 }
 links a {
     text-decoration: none;
+    color: black;
+    align-self: center;
+    font-size: 1.5rem;
+
 }
 
 nav img {
-    width:20%;
-    
+    padding: 2% 0;
+    width:20vw;
+    height: 20%;
+    align-self: center;
+   
 }
 
+.jumbo {
+    display: flex;
+    justify-content: center;
+    padding: 0px ;
+    margin-top: 1%;
+
+}
+
+.jumbo-pic img{
+    width: 83vw;
+    height: 100%;
+
+}
 
 h1, h2, h3, h4, h5 {
     font-size: 2.5rem;
@@ -112,11 +137,21 @@ section, footer{
     width: 35%;
     padding: 0 1%;
     padding-bottom: 4%;  
+    display: flex;
+    flex-direction: column;
+}
+
+.top-content h2 {
+    align-self: center;
+    padding-bottom: 20px;
 }
 
 /*Middle Section Styles*/
 .middle-content {
     margin-bottom: 4%;
+    border-bottom: 2px solid #ff4b00;
+
+    
 }
 
 .middle-content h2 {
@@ -125,27 +160,71 @@ section, footer{
 
 .middle-content .boxes {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+   
 }
 
 .middle-content .boxes .box {
     background: black;
-    margin: 4% 0;
+    margin: 4% 0%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 14vw;
+    height: 16vh;
+}
+
+.middle-content .boxes .box:nth-child(1) {
+    background: teal;
+}
+.middle-content .boxes .box:nth-child(2) {
+    background: gold;
+}
+.middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+.middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+.middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+.middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+.middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
 }
 
 /*Bottom Section Styles*/
 .bottom-content {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .bottom-content .text-container {
+    display: flex;
+    flex-direction: column;
     width:25%;
+    color: rgba(0, 0, 0, .75);
+
+}
+
+.bottom-content h2 {
+    margin-bottom: 10%;
 }
 
 .bottom-content .text-container:last-child {
@@ -154,8 +233,28 @@ section, footer{
 
 /*Footer Styles*/
 footer {
-    width: 100%;
+    display: flex;
+    justify-content: center;
     background-color: #ff4b00;
+}
+
+footer nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+footer links {
+    width: 100%;
+    
+}
+
+footer a {
+    color: rgba(255, 255, 255, .75);
+    font-size: 1.6rem;
+    width: 10%;
+    
+    
 }
 
 /*About Page Styles*/
