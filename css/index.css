@@ -127,14 +127,14 @@ section, footer{
 .top-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-bottom: 4%;
     border-bottom: 2px solid #ff4b00;
     text-align: justify;
 }
 
 .top-content .text-container {
-    width: 35%;
+    width: 48%;
     padding: 0 1%;
     padding-bottom: 4%;  
     display: flex;
@@ -150,12 +150,15 @@ section, footer{
 .middle-content {
     margin-bottom: 4%;
     border-bottom: 2px solid #ff4b00;
+    padding-top: 0;
 
     
 }
 
 .middle-content h2 {
-    margin-bottom: 0;
+    margin-bottom: 4%;
+    margin-left: 1%;
+    color: rgba(0, 0, 0, .75);
 }
 
 .middle-content .boxes {
@@ -168,13 +171,14 @@ section, footer{
 
 .middle-content .boxes .box {
     background: black;
-    margin: 4% 0%;
+    margin: 2% 1%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 14vw;
-    height: 16vh;
+    
+    width: 13vw;
+    height: 13vh;
 }
 
 .middle-content .boxes .box:nth-child(1) {
@@ -212,6 +216,7 @@ section, footer{
 .bottom-content {
     display: flex;
     justify-content: space-between;
+    padding-top: 0%;
     
 }
 
