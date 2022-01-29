@@ -267,9 +267,143 @@ footer a {
 /*About Page Styles*/
 
 .container-about-page {
-
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
     border: 1px blue solid;
+
+  
+}
+
+.container-about-page h2 {
+    width: 50%;
+
+}
+
+.container-about-page p {
+
+}
+
+.about-sec {
+    width: 82vw;
+    display: flex;
+    
+
+}
+.about {
+    /* width: 82vw; */
+    border-bottom: 2px solid #ff4b00;
+    /* padding: 2% 0; */
+    margin-bottom: 3%;
+
 }
 
 
+
 /*Responsive Styles*/
+
+@media (max-width: 500px) {
+
+    header nav {
+        flex-direction: column;
+
+    }
+
+    links {
+        /* width: 100%; */
+        justify-content: space-around;
+        align-self: center;
+    }
+
+    nav img {
+        width: 40vw;
+        margin-top: 5%;
+    }
+
+    .top-content {
+        flex-direction: column;
+        align-content: center;
+        
+    }
+
+    .top-content .text-container {
+        width: 100%;
+
+    }
+
+    .middle-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .middle-content h2 {
+        width: 50vw;
+        align-self: center;
+        text-align: center;
+    }
+
+    .middle-content .boxes {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+       
+    }
+
+    .middle-content .boxes .box {
+        /* background: black;
+        margin: 2% 1%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center; */
+        
+        width: 35vw;
+        height: 20vh;
+    }
+
+    .bottom-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bottom-content .text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+        color: rgba(0, 0, 0, .75);
+    
+    }
+
+    .bottom-content h2 {
+        margin: 5%;
+        
+    }
+
+    footer nav {
+        padding: 1%;
+    }
+    
+    footer links {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 100%;        
+    }
+    
+    footer a {
+        color: rgba(255, 255, 255, .75);
+        font-size: 1.4rem;
+        width: 30%;
+        text-decoration: none;
+        text-align: center;
+        margin: 3px;
+        
+    
+        
+        
+    }
+
+}
