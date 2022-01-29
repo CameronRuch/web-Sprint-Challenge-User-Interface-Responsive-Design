@@ -258,11 +258,18 @@ footer a {
     color: rgba(255, 255, 255, .75);
     font-size: 1.6rem;
     width: 10%;
+    text-decoration: none;
+
     
     
 }
 
 /*About Page Styles*/
+
+.container-about-page {
+
+    border: 1px blue solid;
+}
 
 
 /*Responsive Styles*/
