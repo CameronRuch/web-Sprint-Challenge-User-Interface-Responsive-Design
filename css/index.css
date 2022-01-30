@@ -266,38 +266,64 @@ footer a {
 
 /*About Page Styles*/
 
-.container-about-page {
+.container-about {
+    width: 100% ;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    border: 1px blue solid;
+    flex-wrap: wrap;
+    justify-content: center;
+
 
   
 }
 
-.container-about-page h2 {
-    width: 50%;
+.container-about h2, p {
 
 }
 
-.container-about-page p {
-
-}
-
-.about-sec {
-    width: 82vw;
-    display: flex;
-    
-
-}
 .about {
-    /* width: 82vw; */
     border-bottom: 2px solid #ff4b00;
-    /* padding: 2% 0; */
-    margin-bottom: 3%;
+    width: 80vw;
+    margin: 2%;
+    padding-bottom: 3%;
+}
+
+.strategy {
+    width:38vw;
+    border-bottom: 2px solid #ff4b00;
+    margin: 2%;
+    padding-bottom: 3%;
+
 
 }
 
+.how {
+    width:38vw;
+    border-bottom: 2px solid #ff4b00;
+    margin: 2%;
+    padding-bottom: 3%;
+
+}
+
+.places {
+    width:38vw;
+    border-bottom: 2px solid #ff4b00;
+    margin: 2%;
+    padding-bottom: 3%;
+
+}
+
+.collab {
+    width: 38vw;
+    border-bottom: 2px solid #ff4b00;
+    margin: 2%;
+    padding-bottom: 3%;
+
+}
+
+.together {
+    width: 80%;
+    margin-bottom: 5%;
+}
 
 
 /*Responsive Styles*/
