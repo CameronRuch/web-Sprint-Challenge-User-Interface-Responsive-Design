@@ -270,14 +270,12 @@ footer a {
     width: 100% ;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-
-
-  
+    justify-content: space-evenly;
+    color: rgba(0, 0, 0, .75);
 }
 
-.container-about h2, p {
-
+.container-about img {
+    width: 35vw;
 }
 
 .about {
@@ -288,43 +286,67 @@ footer a {
 }
 
 .strategy {
-    width:38vw;
+    width:35vw;
     border-bottom: 2px solid #ff4b00;
     margin: 2%;
     padding-bottom: 3%;
 
+}
 
+.strategy h2 {
+    padding: 2% 0%;
 }
 
 .how {
-    width:38vw;
+    width: 35vw;
     border-bottom: 2px solid #ff4b00;
     margin: 2%;
     padding-bottom: 3%;
 
+}
+.how h2 {
+    padding: 2% 0%;
 }
 
 .places {
-    width:38vw;
+    width:35vw;
     border-bottom: 2px solid #ff4b00;
     margin: 2%;
     padding-bottom: 3%;
 
+}
+.places h2 {
+    padding: 2% 0%;
 }
 
 .collab {
-    width: 38vw;
+    width: 35vw;
     border-bottom: 2px solid #ff4b00;
     margin: 2%;
     padding-bottom: 3%;
 
 }
-
-.together {
-    width: 80%;
-    margin-bottom: 5%;
+.collab h2 {
+    padding: 2% 0%;
 }
 
+.together {
+    width: 80vw;
+    margin: 3% 0;
+}
+
+.together h2 {
+    padding-bottom: 2%;
+}
+
+footer {
+    margin-top: 2%;
+    
+}
+
+footer nav  {
+    margin: 0 5%;
+}
 
 /*Responsive Styles*/
 
