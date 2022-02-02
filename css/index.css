@@ -126,7 +126,7 @@ section, footer{
 
 .top-content {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
     margin-bottom: 4%;
     border-bottom: 2px solid #ff4b00;
@@ -136,7 +136,7 @@ section, footer{
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 4%;  
+    margin: 2%;
     display: flex;
     flex-direction: column;
 }
@@ -146,11 +146,17 @@ section, footer{
     padding-bottom: 20px;
 }
 
+.top-content p {
+    color: black;
+    font: bolder;
+}
+
 /*Middle Section Styles*/
 .middle-content {
     margin-bottom: 4%;
     border-bottom: 2px solid #ff4b00;
     padding-top: 0;
+    width: 100%;
 
     
 }
@@ -166,6 +172,7 @@ section, footer{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    width: 100%;
    
 }
 
@@ -177,8 +184,8 @@ section, footer{
     align-items: center;
     justify-content: center;
     
-    width: 13vw;
-    height: 13vh;
+    width: 14vw;
+    height: 23vh;
 }
 
 .middle-content .boxes .box:nth-child(1) {
@@ -358,13 +365,13 @@ footer nav  {
     }
 
     links {
-        /* width: 100%; */
+        width: 95%;
         justify-content: space-around;
         align-self: center;
     }
 
     nav img {
-        width: 40vw;
+        width: 50vw;
         margin-top: 5%;
     }
 
@@ -448,10 +455,138 @@ footer nav  {
         text-decoration: none;
         text-align: center;
         margin: 3px;
-        
+                     
+    }
+
+    /* mobile about */
+
+    .container-about {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .container-about img {
+        width: 35vw;
+    }
     
-        
+    .about {
+        border-bottom: 2px solid #ff4b00;
+        width: 80vw;
+        margin: 2%;
+        padding-bottom: 3%;
+    }
+
+    .about h2 {
+        text-align: center;
+        padding: 2%;
+    }
+
+    .about p {
+        padding: 3%;
+    }
+    
+    .strategy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:80vw;
+        border-bottom: 2px solid #ff4b00;
+        margin: 2%;
+        padding-bottom: 3%;
+    
+    }
+    
+    .strategy h2 {
+        padding: 2% 0%;
+    }
+    
+    .strategy img {
+        margin: 5%;
+        width: 80vw;
+    }
+
+    .how {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:80vw;
+        border-bottom: 2px solid #ff4b00;
+        margin: 2%;
+        padding-bottom: 3%;
+    
+    }
+    .how h2 {
+        padding: 2% 0%;
+    }
+
+    .how img {
+        margin: 5%;
+        width: 80vw;
+    }
+    
+    .places {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:80vw;
+        border-bottom: 2px solid #ff4b00;
+        margin: 2%;
+        padding-bottom: 3%;
+    
+    }
+    .places h2 {
+        padding: 2% 0%;
+    }
+    
+.places img {
+    width: 80vw;
+    margin: 5%;
+}
+
+    .collab {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:80vw;
+        border-bottom: 2px solid #ff4b00;
+        margin: 2%;
+        padding-bottom: 3%;
+    
+    }
+    .collab h2 {
+        padding: 2% 0%;
+    }
+
+    .collab img {
+        width: 80vw;
+        margin: 5%;
+    }
+    
+    .together {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:80vw;
+        margin: 2%;
+        padding-bottom: 3%;
+    }
+    
+    .together h2 {
+        padding: 5%;
+    }
+    
+    footer {
+        margin-top: 2%;
         
     }
+    
+    footer nav  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 5%;
+    }
+
 
 }
